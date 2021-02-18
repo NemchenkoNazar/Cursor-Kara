@@ -22,8 +22,6 @@ console.log(`Число является ${sumFloorProducts % 2 ? 'непарн�
 const moneyClient = 500;
 console.log(`Сдача = ${moneyClient - sumProducts}`);
 
-
-
 console.log(`Среднее арифметическое = ${Math.round((sumProducts/3)*100)/100}`);
 
 const discount = Math.ceil(Math.random() * 100);
