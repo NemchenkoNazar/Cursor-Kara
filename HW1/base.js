@@ -25,7 +25,7 @@ console.log(`Сдача = ${moneyClient - sumProducts}`);
 console.log(`Среднее арифметическое = ${Math.round((sumProducts/3)*100)/100}`);
 
 const discount = Math.ceil(Math.random() * 100);
-console.log(`Скидка ${discount +" %"}`);
+console.log(`Скидка ${discount } %`);
 const sumDiscount = (sumProducts * discount) / 100;
 console.log(`Сумма со скидкой = ${Math.round((sumProducts - sumDiscount) *100) / 100}`);
 const expectedMinIncome = Math.round(sumProducts) / 2;
