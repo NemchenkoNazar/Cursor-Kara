@@ -4,9 +4,11 @@ const beansPrise = 15.678;
 const pearPrise = 123.965;
 const mangoPrise = 90.2345;
 
-console.log(`Максимальное значение = ${Math.max(beansPrise,pearPrise,mangoPrise)}`);
+const maxPrice = Math.max(beansPrise,pearPrise,mangoPrise);
+console.log(`Максимальное значение = ${maxPrice}`);
 
-console.log(`Минимальное значение = ${Math.min(beansPrise,pearPrise,mangoPrise)}`);
+const minPrice = Math.min(beansPrise,pearPrise,mangoPrise);
+console.log(`Минимальное значение = ${minPrice}`);
 
 const sumProducts = beansPrise + pearPrise + mangoPrise;
 console.log(`Сумма продуктов = ${sumProducts}`);
