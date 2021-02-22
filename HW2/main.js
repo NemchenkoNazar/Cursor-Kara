@@ -1,15 +1,15 @@
-let firstNumber = +prompt("Введите первое число: ");
+let firstNumber = parseInt(prompt("Введите первое число: "));
 while (firstNumber % 1 !== 0){
-    firstNumber = +prompt("Неверно! Вам нужно ввести целое число: ");
+    firstNumber = parseInt(prompt("Неверно! Вам нужно ввести целое число: "));
 }
 
-let secondNumber = +prompt("Введите второе число: ");
+let secondNumber = parseInt(prompt("Введите второе число: "));
 while (secondNumber % 1 !== 0){
-    secondNumber = +prompt("Неверно! Вам нужно ввести целое число: ");
+    secondNumber = parseInt(prompt("Неверно! Вам нужно ввести целое число: "));
 }
 
 while ( firstNumber >= secondNumber){
-    secondNumber = +prompt("Второе число должно быть больше первого: ");
+    secondNumber = parseInt(prompt("Второе число должно быть больше первого: "));
 }
 
 const withEven = confirm("Учитывать четные числа?");
