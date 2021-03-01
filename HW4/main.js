@@ -52,6 +52,10 @@ console.log(marksForStudents);
 const marksForPairs = getMarksPairs(themesForPairs)
 console.log(marksForPairs);
 
+console.log(students);
+console.log(themes);
+console.log(marks);
+
 
 
 
