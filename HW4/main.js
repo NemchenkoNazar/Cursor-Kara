@@ -18,7 +18,7 @@ function getThemes(pairs,themes){
     const studentsPairsThemes = [];
     for (let i = 0; i < pairs.length; i++) {
         const pair = pairs[i];
-        studentsPairsThemes[i] = pair[0] + " и " + pair[1];
+        studentsPairsThemes[i] = [pair[0] + " і " + pair[1]];
     }
     for (let i = 0; i < studentsPairsThemes.length; i++) {
         studentsPairsThemes[i] = [studentsPairsThemes[i],themes[i]];
@@ -34,10 +34,10 @@ function getMarks(students,marks){
     return studentsMarks;
 }
 
-function getMarksPairs(pairs){
+function getMarksPairs(pairs,  minMark, maxMark){
     let pairsMarks = [];
     for (let i = 0; i < pairs.length; i++) {
-        let mark = Math.floor(Math.random() * 5) + 1;
+        let mark = Math.floor(Math.random() * maxMark) + minMark;
         pairsMarks[i] = [pairs[i], mark];
     }
     return pairsMarks;
@@ -49,7 +49,7 @@ const themesForPairs = getThemes(pairs,themes);
 console.log(themesForPairs);
 const marksForStudents = getMarks(students,marks);
 console.log(marksForStudents);
-const marksForPairs = getMarksPairs(themesForPairs)
+const marksForPairs = getMarksPairs(themesForPairs, 1, 5)
 console.log(marksForPairs);
 
 console.log(students);
