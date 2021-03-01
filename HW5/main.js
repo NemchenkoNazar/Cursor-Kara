@@ -10,7 +10,7 @@ function getRandomArray(length, min, max){
     }
     return randomArray;
 }
-// console.log(`Функция №1 : ${getRandomArray(15, 90, 100)}`);
+console.log(`Функция №1 : ${getRandomArray(15, 90, 100)}`);
 
 // function getModa(...numbers){
 //     let count = 0;
