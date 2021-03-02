@@ -16,7 +16,8 @@ function getThemes(pairs, themes) {
     const studentsPairsThemes = [];
     for (let i = 0; i < pairs.length; i++) {
         const pair = pairs[i];
-        studentsPairsThemes[i] = pair[0] + " і " + pair[1];
+        // studentsPairsThemes[i] = pair[0] + " і " + pair[1];
+        studentsPairsThemes[i] = pair.join(" і ");
     }
     for (let i = 0; i < studentsPairsThemes.length; i++) {
         studentsPairsThemes[i] = [studentsPairsThemes[i],themes[i]];
