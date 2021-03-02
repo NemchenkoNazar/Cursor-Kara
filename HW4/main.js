@@ -36,7 +36,7 @@ function getMarksPairs(pairs,  minMark, maxMark) {
     let pairsMarks = [];
     for (let i = 0; i < pairs.length; i++) {
         let mark = Math.floor(Math.random() * maxMark) + minMark;
-        pairsMarks[i] = [...pairs[i],mark];
+        pairsMarks[i] = [...pairs[i], mark];
     }
     return pairsMarks;
 }
@@ -49,14 +49,3 @@ const marksForStudents = getMarks(students, marks);
 console.log(marksForStudents);
 const marksForPairs = getMarksPairs(themesForPairs, 1, 5);
 console.log(marksForPairs);
-
-console.log(students);
-console.log(themes);
-console.log(marks);
-
-
-
-
-
-
-
