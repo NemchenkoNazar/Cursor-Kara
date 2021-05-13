@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/22-authentification/static/css/main.3312fa71.chunk.css",
+    "main.js": "/22-authentification/static/js/main.0285f9fd.chunk.js",
+    "main.js.map": "/22-authentification/static/js/main.0285f9fd.chunk.js.map",
+    "runtime-main.js": "/22-authentification/static/js/runtime-main.09f5a168.js",
+    "runtime-main.js.map": "/22-authentification/static/js/runtime-main.09f5a168.js.map",
+    "static/js/2.92e47274.chunk.js": "/22-authentification/static/js/2.92e47274.chunk.js",
+    "static/js/2.92e47274.chunk.js.map": "/22-authentification/static/js/2.92e47274.chunk.js.map",
+    "static/js/3.f5b70c6d.chunk.js": "/22-authentification/static/js/3.f5b70c6d.chunk.js",
+    "static/js/3.f5b70c6d.chunk.js.map": "/22-authentification/static/js/3.f5b70c6d.chunk.js.map",
+    "index.html": "/22-authentification/index.html",
+    "static/css/main.3312fa71.chunk.css.map": "/22-authentification/static/css/main.3312fa71.chunk.css.map",
+    "static/js/2.92e47274.chunk.js.LICENSE.txt": "/22-authentification/static/js/2.92e47274.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09f5a168.js",
+    "static/js/2.92e47274.chunk.js",
+    "static/css/main.3312fa71.chunk.css",
+    "static/js/main.0285f9fd.chunk.js"
+  ]
+}

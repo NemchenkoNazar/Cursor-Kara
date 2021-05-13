@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-deploy-class-components/static/css/main.86eeb658.chunk.css",
+    "main.js": "/react-deploy-class-components/static/js/main.30882fdc.chunk.js",
+    "main.js.map": "/react-deploy-class-components/static/js/main.30882fdc.chunk.js.map",
+    "runtime-main.js": "/react-deploy-class-components/static/js/runtime-main.b625f12e.js",
+    "runtime-main.js.map": "/react-deploy-class-components/static/js/runtime-main.b625f12e.js.map",
+    "static/js/2.7ed7c7a3.chunk.js": "/react-deploy-class-components/static/js/2.7ed7c7a3.chunk.js",
+    "static/js/2.7ed7c7a3.chunk.js.map": "/react-deploy-class-components/static/js/2.7ed7c7a3.chunk.js.map",
+    "static/js/3.684b89ba.chunk.js": "/react-deploy-class-components/static/js/3.684b89ba.chunk.js",
+    "static/js/3.684b89ba.chunk.js.map": "/react-deploy-class-components/static/js/3.684b89ba.chunk.js.map",
+    "index.html": "/react-deploy-class-components/index.html",
+    "static/css/main.86eeb658.chunk.css.map": "/react-deploy-class-components/static/css/main.86eeb658.chunk.css.map",
+    "static/js/2.7ed7c7a3.chunk.js.LICENSE.txt": "/react-deploy-class-components/static/js/2.7ed7c7a3.chunk.js.LICENSE.txt",
+    "static/media/man.cabdd7fc.png": "/react-deploy-class-components/static/media/man.cabdd7fc.png",
+    "static/media/woman.a7a258c3.png": "/react-deploy-class-components/static/media/woman.a7a258c3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b625f12e.js",
+    "static/js/2.7ed7c7a3.chunk.js",
+    "static/css/main.86eeb658.chunk.css",
+    "static/js/main.30882fdc.chunk.js"
+  ]
+}

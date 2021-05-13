@@ -1,0 +1,62 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Alfa Slab One', cursive;
+}
+body {
+    font-size: 14px;
+    font-family: 'Alfa Slab One', cursive;
+    color :#fff;
+    height: 100%;
+}
+
+#block{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 520px;
+}
+.person{
+    width: 24%;
+    text-align: center;
+    height: 120px;
+
+    margin: 5px;
+    overflow: hidden;
+
+}
+.personImg{
+    width: 150px;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+#plan{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: scale(0);
+    text-align: center;
+    font-size: 25;
+    transition: transform 3s linear;
+}
+
+.planets{
+
+}
+.hold{
+    overflow: hidden;
+    background: no-repeat url('img/bodyimg.jpg');
+    background-size: 100%;
+}
+.film{
+    color:#000;
+
+}
+
+p{
+    color: #000;
+}
